@@ -86,7 +86,7 @@ INT32, bytes INT32 )
 
     SELECT sum(bytes) as task2
     FROM `yanqusem0320`
-    WHERE (src REGEXP ‘(^12\.)’ or src REGEXP ‘(^13\.)’ or src REGEXP ‘(^14\.)’) and (dst not REGEXP ‘(^1[2-4]\.)’)
+    WHERE (src REGEXP '(^12\.)' or src REGEXP '(^13\.)' or src REGEXP '(^14\.)') and (dst not REGEXP '(^1[2-4]\.)')
 
 Ответ: 6726396441 байт
 
@@ -98,7 +98,7 @@ INT32, bytes INT32 )
     FROM `yanqusem0320`
     WHERE dst REGEXP '(^1[2-4].)';
 
-Ответ: 12459379906 байт
+Ответ: 15740490053 байт
 
 ![](image/8.jpg)
 
